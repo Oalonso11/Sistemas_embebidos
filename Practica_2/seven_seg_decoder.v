@@ -16,7 +16,7 @@ module seven_seg_decoder(
             4'd8: seg = 7'b0000000;
             4'd9: seg = 7'b0010000;
 
-            4'hA: seg = 7'b1111110; // signo menos "-"
+            4'hA: seg = 7'b0111111; // signo menos "-"
             4'hF: seg = 7'b1111111; // blank
 
             default: seg = 7'b1111111;
