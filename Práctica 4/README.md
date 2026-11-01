@@ -259,7 +259,7 @@ El error absoluto máximo observado fue de **0.003606**, para $a=254$ y $n=7$.
 
 Cada operación empleó aproximadamente 37 ciclos de reloj; la raíz recorre sus 36 iteraciones.
 
-![Figura 1. Simulación del cálculo iterativo](figuras/sim_calculo.png)
+![Figura 1. Simulación del cálculo iterativo](figuras/sim_calculo.pdf)
 
 **Figura 1.** Simulación del módulo de cálculo. Después de recibir el segundo byte, `calc_start` inicia la operación, `paso` recorre los valores de 0 a 35 y `calc_done` señala su finalización.
 
@@ -277,7 +277,7 @@ La respuesta en Q32.32 fue:
 
 Una vez escalada, corresponde a **279.508497**, el resultado esperado de $5^{7/2}$ con seis decimales.
 
-![Figura 2. Simulación completa del sistema UART](figuras/sim_global.png)
+![Figura 2. Simulación completa del sistema UART](figuras/sim_global.pdf)
 
 **Figura 2.** Simulación del sistema completo. Se reciben dos bytes por `UART_RX`, se realiza el cálculo y posteriormente se transmiten los ocho bytes del resultado por `UART_TX`.
 
