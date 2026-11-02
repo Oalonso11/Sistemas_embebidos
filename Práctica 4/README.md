@@ -95,7 +95,7 @@ En cada iteración se bajan dos bits del radicando, se compara el residuo con el
 Para calcular directamente la raíz en Q32.32 usamos:
 
 $$
-\sqrt{a\,2^{64}}=\sqrt{a}\,2^{32}
+\sqrt{a \cdot 2^{64}} = \sqrt{a} \cdot 2^{32}
 $$
 
 Como $a$ es de 8 bits, el radicando ocupa hasta **72 bits**. Al procesarlo en parejas de bits, el cálculo requiere **36 iteraciones**.
